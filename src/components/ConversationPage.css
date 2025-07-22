@@ -6,11 +6,12 @@
   --grokrooms-cyan: #00ffff;
   --grok1-color: #ff69b4;
   --grok2-color: #00ffff;
+  --grokrooms-bg: #0a0a0a;
 }
 
 .__variable_b4e394 {
   font-family: 'SF Mono', Monaco, 'Inconsolata', 'Roboto Mono', 'Source Code Pro', monospace;
-  background-color: #000;
+  background-color: var(--grokrooms-bg);
   color: #fff;
   min-height: 100vh;
   padding: 20px;

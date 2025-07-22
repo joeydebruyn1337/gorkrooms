@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 function HomePage() {
   return (
     <div style={{ 
-      backgroundColor: '#000', 
+      backgroundColor: '#0a0a0a', 
       color: '#fff', 
       fontFamily: 'monospace', 
       minHeight: '100vh',

@@ -1,6 +1,6 @@
 /* Grokrooms App Styles */
 .App {
-  background-color: #000;
+  background-color: #0a0a0a;
   color: #fff;
   font-family: 'JetBrains Mono', monospace;
   min-height: 100vh;
@@ -19,7 +19,7 @@ button {
 
 button:hover {
   background-color: #8a2be2;
-  color: #000;
+  color: #0a0a0a;
 }
 
 /* Ensure links maintain proper styling */
