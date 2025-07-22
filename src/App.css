@@ -1,16 +1,16 @@
-/* Grokrooms App Styles */
+/* App-wide styling matching original Grokrooms */
 .App {
-  background-color: #0a0a0a;
-  color: #fff;
-  font-family: 'JetBrains Mono', monospace;
+  background-color: var(--background-color);
+  color: var(--foreground);
+  font-family: var(--font-terminal);
   min-height: 100vh;
 }
 
-/* Remove default button styling and other overrides */
+/* Button styling */
 button {
   background: none;
-  border: 1px solid #8a2be2;
-  color: #8a2be2;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
   padding: 0.5rem 1rem;
   font-family: inherit;
   cursor: pointer;
@@ -18,17 +18,20 @@ button {
 }
 
 button:hover {
-  background-color: #8a2be2;
-  color: #0a0a0a;
+  background-color: var(--accent-color);
+  color: var(--background-color);
 }
 
-/* Ensure links maintain proper styling */
-a {
-  color: #8a2be2;
-  text-decoration: none;
+/* Footer styling */
+.mainFooter {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color);
+  text-align: center;
+  color: var(--secondary-accent);
+  font-size: 0.9rem;
 }
 
-a:hover {
-  color: #00ffff;
-  text-decoration: underline;
+.mainFooter p {
+  margin: 0;
 }

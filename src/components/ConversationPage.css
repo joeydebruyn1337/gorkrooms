@@ -1,126 +1,50 @@
-/* Main variables and styling to match original Grokrooms */
-:root {
-  --border-color: #333;
-  --secondary-accent: #888;
-  --grokrooms-purple: #8a2be2;
-  --grokrooms-cyan: #00ffff;
-  --grok1-color: #ff69b4;
-  --grok2-color: #00ffff;
-  --grokrooms-bg: #0a0a0a;
-}
-
-.__variable_b4e394 {
-  font-family: 'SF Mono', Monaco, 'Inconsolata', 'Roboto Mono', 'Source Code Pro', monospace;
-  background-color: var(--grokrooms-bg);
-  color: #fff;
-  min-height: 100vh;
-  padding: 20px;
-  line-height: 1.4;
-}
-
-.mainHeaderArt {
-  color: #8a2be2;
-  font-family: monospace;
-  font-size: 10px;
-  line-height: 1.1;
-  margin-bottom: 2rem;
-  white-space: pre;
-  overflow-x: auto;
-  text-align: center;
-}
-
+/* Conversation Page Styling - matching original Grokrooms */
 .conversation_container__KMK_u {
-  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.conversation_title__fLDFh {
+  font-size: 1.2rem;
+  color: var(--secondary-accent);
 }
 
 .conversation_robotContainer__Rsapk {
   display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
+  justify-content: center;
+  gap: 3rem;
   margin-bottom: 2rem;
-  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .conversation_asciiArt__17HI_ {
-  color: #00ff00;
-  font-family: monospace;
-  font-size: 12px;
-  line-height: 1.1;
-  margin: 0;
-  padding: 10px;
+  color: var(--secondary-accent);
+  line-height: 1.2;
+  font-size: 1.1rem;
 }
 
-.conversation_title__fLDFh {
-  color: #8a2be2;
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-  font-weight: normal;
+.conversation_grok1__lvehX,
+.conversation_grok2__kqJ_P {
+  color: var(--accent-color);
+  font-weight: 400;
 }
 
 .conversation_dialogue__4QGix {
-  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .conversation_message__ZCXwc {
-  margin-bottom: 1.5rem;
-  padding: 0;
-}
-
-.conversation_grok1__lvehX {
-  color: #ff69b4;
-  font-weight: bold;
-  font-family: monospace;
-  display: block;
-  margin-bottom: 0.5rem;
-}
-
-.conversation_grok2__kqJ_P {
-  color: #00ffff;
-  font-weight: bold;
-  font-family: monospace;
-  display: block;
-  margin-bottom: 0.5rem;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
 }
 
 .conversation_message__ZCXwc p {
-  margin: 0;
-  color: #fff;
-  font-family: monospace;
-  font-size: 14px;
-  line-height: 1.5;
   white-space: pre-wrap;
-  margin-left: 2rem;
-}
-
-.mainFooter {
-  margin-top: 3rem;
-  padding-top: 2rem;
-  border-top: 1px solid var(--border-color);
-  text-align: center;
-  color: var(--secondary-accent);
-  font-size: 0.9rem;
-}
-
-.mainFooter p {
-  margin: 0;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .mainHeaderArt {
-    font-size: 8px;
-  }
-  
-  .conversation_robotContainer__Rsapk {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .conversation_asciiArt__17HI_ {
-    font-size: 10px;
-  }
-  
-  .conversation_message__ZCXwc p {
-    margin-left: 1rem;
-  }
+  word-break: break-word;
+  line-height: 1.6;
+  font-size: 1.2rem;
 } 

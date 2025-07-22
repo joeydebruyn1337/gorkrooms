@@ -1,19 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323:wght@400&display=swap');
 
+/* CSS Variables matching original Grokrooms */
 :root {
-  font-family: 'JetBrains Mono', monospace;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: dark;
-  color: #ffffff;
-  background-color: #0a0a0a;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  --background-color: #0c0c0c;
+  --foreground: #dcdcdc;
+  --accent-color: #c586ff;
+  --secondary-accent: #9b59b6;
+  --glow-color: #dcdcdc1a;
+  --border-color: #fff2;
+  --caution-color: #ff4747;
+  --font-terminal: "VT323", monospace;
 }
 
 * {
@@ -21,17 +17,39 @@
 }
 
 body {
+  background-color: var(--background-color);
+  color: var(--foreground);
+  font-family: var(--font-terminal);
+  text-shadow: 0 0 5px var(--glow-color);
+  padding: 1.5rem;
   margin: 0;
-  padding: 0;
   min-height: 100vh;
-  background-color: #0a0a0a;
-  color: #ffffff;
-  font-family: 'JetBrains Mono', monospace;
-  overflow-x: auto;
+  line-height: 1.4;
 }
 
 #root {
   min-height: 100vh;
+}
+
+/* Links */
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Main header styling */
+.mainHeaderArt {
+  text-align: center;
+  color: var(--secondary-accent);
+  margin-bottom: 2rem;
+  font-size: 0.7rem;
+  line-height: 1;
+  white-space: pre;
+  overflow-x: auto;
 }
 
 /* Terminal-style scrollbar */
@@ -40,49 +58,27 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #111;
+  background: var(--background-color);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #333;
+  background: var(--border-color);
   border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: var(--secondary-accent);
 }
 
 /* Selection styling */
 ::selection {
-  background: #8a2be230;
-  color: #8a2be2;
+  background: var(--accent-color);
+  color: var(--background-color);
 }
 
-/* Preformatted text styling */
-pre {
-  font-family: 'JetBrains Mono', monospace;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-}
-
-/* Link styling */
-a {
-  color: #8a2be2;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #00ffff;
-  text-decoration: underline;
-}
-
-/* Terminal prompt animation */
-@keyframes blink {
-  0%, 50% { opacity: 1; }
-  51%, 100% { opacity: 0; }
-}
-
-.terminal-cursor::after {
-  content: '█';
-  animation: blink 1s infinite;
+/* Responsive font sizing */
+@media (max-width: 768px) {
+  .mainHeaderArt {
+    font-size: 0.5rem;
+  }
 }
