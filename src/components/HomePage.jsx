@@ -9,7 +9,13 @@ function HomePage() {
       minHeight: '100vh',
       padding: '20px'
     }}>
-      <pre style={{ fontSize: '10px', lineHeight: '1.1', marginBottom: '2rem', color: '#8a2be2' }}>
+      <pre style={{ 
+        fontSize: '10px', 
+        lineHeight: '1.1', 
+        marginBottom: '2rem', 
+        color: '#8a2be2',
+        textAlign: 'center'
+      }}>
 {`.d8888b.  8888888b.   .d88888b.  888    d8P  8888888b.   .d88888b.   .d88888b.  888b     d888  .d8888b.  
 d88P  Y88b 888   Y88b d88P" "Y88b 888   d8P   888   Y88b d88P" "Y88b d88P" "Y88b 8888b   d8888 d88P  Y88b 
 888    888 888    888 888     888 888  d8P    888    888 888     888 888     888 88888b.d88888 Y88b.      

@@ -26,6 +26,7 @@
   margin-bottom: 2rem;
   white-space: pre;
   overflow-x: auto;
+  text-align: center;
 }
 
 .conversation_container__KMK_u {
@@ -41,7 +42,7 @@
 }
 
 .conversation_asciiArt__17HI_ {
-  color: #00ffff;
+  color: #00ff00;
   font-family: monospace;
   font-size: 12px;
   line-height: 1.1;
