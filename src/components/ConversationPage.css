@@ -1,0 +1,118 @@
+/* Main variables and styling to match original Grokrooms */
+:root {
+  --border-color: #333;
+  --secondary-accent: #888;
+}
+
+.__variable_b4e394 {
+  font-family: 'SF Mono', Monaco, 'Inconsolata', 'Roboto Mono', 'Source Code Pro', monospace;
+  background-color: #000;
+  color: #0f0;
+  min-height: 100vh;
+  padding: 20px;
+  line-height: 1.4;
+}
+
+.mainHeaderArt {
+  color: #0f0;
+  font-family: monospace;
+  font-size: 10px;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+  white-space: pre;
+  overflow-x: auto;
+}
+
+.conversation_container__KMK_u {
+  max-width: 100%;
+}
+
+.conversation_robotContainer__Rsapk {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  justify-content: space-around;
+}
+
+.conversation_asciiArt__17HI_ {
+  color: #0f0;
+  font-family: monospace;
+  font-size: 12px;
+  line-height: 1.1;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #333;
+  background-color: #111;
+}
+
+.conversation_title__fLDFh {
+  color: #0f0;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  font-weight: normal;
+}
+
+.conversation_dialogue__4QGix {
+  margin-top: 2rem;
+}
+
+.conversation_message__ZCXwc {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-left: 3px solid #333;
+}
+
+.conversation_grok1__lvehX {
+  color: #ff6b6b;
+  font-weight: bold;
+  font-family: monospace;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.conversation_grok2__kqJ_P {
+  color: #4ecdc4;
+  font-weight: bold;
+  font-family: monospace;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.conversation_message__ZCXwc p {
+  margin: 0;
+  color: #0f0;
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.mainFooter {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color);
+  text-align: center;
+  color: var(--secondary-accent);
+  font-size: 0.9rem;
+}
+
+.mainFooter p {
+  margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .mainHeaderArt {
+    font-size: 8px;
+  }
+  
+  .conversation_robotContainer__Rsapk {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .conversation_asciiArt__17HI_ {
+    font-size: 10px;
+  }
+} 
