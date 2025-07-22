@@ -61,8 +61,7 @@
 
 .conversation_message__ZCXwc {
   margin-bottom: 1.5rem;
-  padding: 1rem;
-  border-left: 3px solid #333;
+  padding: 0;
 }
 
 .conversation_grok1__lvehX {
@@ -88,6 +87,7 @@
   font-size: 14px;
   line-height: 1.5;
   white-space: pre-wrap;
+  margin-left: 2rem;
 }
 
 .mainFooter {
@@ -116,5 +116,9 @@
   
   .conversation_asciiArt__17HI_ {
     font-size: 10px;
+  }
+  
+  .conversation_message__ZCXwc p {
+    margin-left: 1rem;
   }
 } 
