@@ -2,19 +2,23 @@
 :root {
   --border-color: #333;
   --secondary-accent: #888;
+  --grokrooms-purple: #8a2be2;
+  --grokrooms-cyan: #00ffff;
+  --grok1-color: #ff69b4;
+  --grok2-color: #00ffff;
 }
 
 .__variable_b4e394 {
   font-family: 'SF Mono', Monaco, 'Inconsolata', 'Roboto Mono', 'Source Code Pro', monospace;
   background-color: #000;
-  color: #0f0;
+  color: #fff;
   min-height: 100vh;
   padding: 20px;
   line-height: 1.4;
 }
 
 .mainHeaderArt {
-  color: #0f0;
+  color: #8a2be2;
   font-family: monospace;
   font-size: 10px;
   line-height: 1.1;
@@ -36,7 +40,7 @@
 }
 
 .conversation_asciiArt__17HI_ {
-  color: #0f0;
+  color: #00ffff;
   font-family: monospace;
   font-size: 12px;
   line-height: 1.1;
@@ -47,7 +51,7 @@
 }
 
 .conversation_title__fLDFh {
-  color: #0f0;
+  color: #8a2be2;
   font-size: 1.5rem;
   margin-bottom: 2rem;
   font-weight: normal;
@@ -64,7 +68,7 @@
 }
 
 .conversation_grok1__lvehX {
-  color: #ff6b6b;
+  color: #ff69b4;
   font-weight: bold;
   font-family: monospace;
   display: block;
@@ -72,7 +76,7 @@
 }
 
 .conversation_grok2__kqJ_P {
-  color: #4ecdc4;
+  color: #00ffff;
   font-weight: bold;
   font-family: monospace;
   display: block;
@@ -81,7 +85,7 @@
 
 .conversation_message__ZCXwc p {
   margin: 0;
-  color: #0f0;
+  color: #fff;
   font-family: monospace;
   font-size: 14px;
   line-height: 1.5;
