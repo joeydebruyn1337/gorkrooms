@@ -102,7 +102,7 @@ Abstract Data Stream: Digital gold shimmers in the void... the birth of a new to
 
 @@@@@@@
        @@         @@
-     @   $VORTEX   @
+     @     @
     @ *  *     *  * @
    @  *   *   *   *  @
   @   *    * *    *   @
@@ -112,7 +112,7 @@ Abstract Data Stream: Digital gold shimmers in the void... the birth of a new to
  @   *    * *    *   @
   @   *   *   *   *  @
    @ *  *     *  * @
-    @   $VORTEX   @
+    @     @
      @@         @@
        @@@@@@@
 
